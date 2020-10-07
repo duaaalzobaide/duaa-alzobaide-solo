@@ -1,0 +1,33 @@
+
+body{
+
+	  background : lightblue;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  height: 100vh
+}
+
+.thewatch {
+
+	font-size: 15em;
+}
+
+.buttons button {
+
+  display: inline-white;
+  border-radius: 2px;
+  background-color: #CC0099;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
