@@ -1,33 +1,94 @@
 
-body{
+body {
 
-	  background : lightblue;
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  justify-content: center;
-	  height: 100vh
+background: url(/home/pc/Desktop/solo/duaa-alzobaide-solo/1491591837165.jpeg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
 }
 
-.thewatch {
-
-	font-size: 15em;
+.wrapper {
+width: 800px;
+margin: 30px auto;
+text-align:center;
 }
 
-.buttons button {
-
-  display: inline-white;
-  border-radius: 2px;
-  background-color: #CC0099;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 18px;
-  padding: 16px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+h1 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 4em;
+  text-transform: uppercase;
+  color :white;
 }
+
+#minutes, #seconds, #tens{
+  font-size:4em;
+  color: white;
+
+  
+
+}
+
+/*.banner video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%
+	z-index:1;
+}
+*/
+p span {
+  
+color: white;
+size: 4em;
+
+}
+
+button{
+background:none;
+color:#ffffff;
+border: solid 1px #ffffff;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+ outline: none;
+  
+}
+
+button:hover{
+  
+  background:#ffffff;
+  border: solid 1px #ffffff;
+  color:grey;
+  }
+
+#lapsList {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+
+
+}
+
+li {
+  font-weight: bold;
+  font-size: 2em;
+  list-style: none;
+
+}
+
+/*z-index*/
+
 
 
