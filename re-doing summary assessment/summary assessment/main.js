@@ -67,9 +67,13 @@ function reduce(array, f, acc) {
 
     function addID(object,Id){
 
-      if(object===undefined){
+      if(Id===undefined){
 
          object.id = 'n/n'
+      }
+
+      else if(Id!== typeof 4){
+        return 'Invalid code'
       }
 
       else {
@@ -161,13 +165,6 @@ function coinFlip(){
 // lastNElements( [9,2,3,4,6],1) ==> [6]
 // lastNElements( [], 3 ) ==> []
 // lastNElements( [5,6,8,9,12], 9 ) ==> [5,6,8,9,12]
-function sum(array) {
-  if (array.length === 0) {
-    return 0;
-  } else {
-    return array[0] + sum(array.slice(1));
-  }
-}
 
 
 //=============================================================================
@@ -191,6 +188,15 @@ function sum(array) {
 // arraySum([1, 2, 4]) ==>   3
 
 // TODO: your code here
+
+function sum(array) {
+  if (array.length === 0) {
+    return 0;
+  } else {
+    return array[0] + sum(array.slice(1));
+  }
+}
+
 
 
 //=============================================================================
