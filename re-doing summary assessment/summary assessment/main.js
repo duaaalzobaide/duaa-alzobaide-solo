@@ -73,7 +73,7 @@ function reduce(array, f, acc) {
       }
 
       else if(Id!== typeof 4){
-        return 'Invalid code'
+        return 'Invalid codef'
       }
 
       else {
@@ -166,6 +166,17 @@ function coinFlip(){
 // lastNElements( [], 3 ) ==> []
 // lastNElements( [5,6,8,9,12], 9 ) ==> [5,6,8,9,12]
 
+// function lastElements(array,number){
+
+//   return map(array, function(num,index){
+
+//     if(num===number){
+//      return array.slice[index]
+//     }
+
+//   })
+// }
+
 
 //=============================================================================
 /*                                  Q6                                        */
@@ -176,6 +187,37 @@ function coinFlip(){
 //replaceDigit("p3ython") ==> p&ython
 
 // TODO: your code here
+
+function replaceDigit(string){
+//im trying this function but seems like something is wrong with it so i will try a for loop 
+  newString = string.split('')
+
+  each(newString, function(letter){
+
+    if(letter === typeof 4 ){
+
+      letter = '&'
+
+    }
+    return newString.join('')
+  })
+
+  return newString
+
+}
+
+function replaceDigit(string) {
+
+  var newString = string.split('')
+
+  for(var i = 0; i<newString.length; i++){
+    if(newString[i] === typeof 'number'){
+       newString[i] = '&'
+    }
+    return newString.join('')
+  }
+// still not working , i will return to it 
+}
 
 
 
