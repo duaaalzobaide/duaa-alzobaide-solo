@@ -64,8 +64,6 @@ function reduce(array, f, acc) {
 
 // TODO: your code here
 
-
-
     
 
 
@@ -81,7 +79,14 @@ function reduce(array, f, acc) {
 // AllHaveLastNames(FollkWithLast); //true
 
 // TODO: your code here
-
+function allHaveLastNames(array){
+ return each(array, function(name){
+  if(name.split(' ')===2){
+    return true
+  }
+  return false 
+ })
+}
 
 //=============================================================================
 /*                                  Q3                                        */
@@ -128,6 +133,13 @@ function reduce(array, f, acc) {
 // lastNElements( [9,2,3,4,6],1) ==> [6]
 // lastNElements( [], 3 ) ==> []
 // lastNElements( [5,6,8,9,12], 9 ) ==> [5,6,8,9,12]
+function sum(array) {
+  if (array.length === 0) {
+    return 0;
+  } else {
+    return array[0] + sum(array.slice(1));
+  }
+}
 
 
 //=============================================================================
@@ -151,7 +163,6 @@ function reduce(array, f, acc) {
 // arraySum([1, 2, 4]) ==>   3
 
 // TODO: your code here
-
 
 
 //=============================================================================
