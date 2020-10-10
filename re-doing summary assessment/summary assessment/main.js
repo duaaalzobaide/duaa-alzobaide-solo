@@ -241,6 +241,44 @@ function displayProfile(object){
 
 // Write your code here .....
 
+function makeSafe(capacity){
+
+  var storage = capacity
+
+  function addItem(item,itemSize){
+
+     var things = item
+
+    if(itemSize==='big'){
+      storage=storage-3
+      things = things+item
+      
+
+    }
+    else if(itemSize==='small'){
+      storage = storage - 1
+      things = things + item
+
+    }
+    else if(itemSize==='medium'){
+      storage = storage - 2
+      things = things + item 
+    }
+    else if(storage===0){
+
+      return "can't fit!!"
+    }
+    else if(storage===capacity){
+
+      return things
+    }
+
+  }
+
+  return addItem;
+
+}
+
 
 
 
