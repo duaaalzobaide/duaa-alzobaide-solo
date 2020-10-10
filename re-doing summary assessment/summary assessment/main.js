@@ -63,8 +63,24 @@ function reduce(array, f, acc) {
 // addID({c : 2}, 'ABC'); // "Invalid code"
 
 // TODO: your code here
+//i tried to use a helper function to this function , but it didn't work .
 
-    
+    function addID(object,Id){
+
+      if(object===undefined){
+
+         object.id = 'n/n'
+      }
+
+      else {
+
+       object.id = Id
+      }
+
+      return object;
+
+
+    }
 
 
 //=============================================================================
@@ -95,6 +111,18 @@ function allHaveLastNames(array){
 // Each outcome should have an equal chance of happening.
 //Hint: Math.random()
 // TODO: your code here
+
+function coinFlip(){
+
+  if(Math.random() < 0.50) {
+
+    return "heads"
+  }
+  if(Math.random()>0.50){
+
+    return "tails"
+  }
+}
 
 
 
