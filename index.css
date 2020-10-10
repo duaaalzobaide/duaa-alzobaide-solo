@@ -1,9 +1,9 @@
 
 body {
 
-background: url(/home/pc/Desktop/solo/duaa-alzobaide-solo/1491591837165.jpeg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
+background: url(/home/pc/Desktop/solo/duaa-alzobaide-solo/Game-Of-Thrones-Stark-Wallpaper-Star-ULTRA-HD-Textures.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;*/
+-moz-background-size: cover;*/
 -o-background-size: cover;
 background-size: cover;
 
@@ -21,26 +21,46 @@ h1 {
   font-size: 4em;
   text-transform: uppercase;
   color :white;
+  text-shadow: 4px 4px grey;
 }
 
-#minutes, #seconds, #tens{
-  font-size:4em;
+#minutes {
+  font-size:6em;
   color: white;
 
-  
 
 }
 
-/*.banner video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	object-fit: cover;
-	width: 100%;
-	height: 100%
-	z-index:1;
+#seconds {
+
+	font-size: 4em;
 }
-*/
+
+ #tens{
+
+ 	font-size: 2em;
+ }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+
 p span {
   
 color: white;
@@ -74,6 +94,7 @@ button:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: white;
 }
 
 ul {
@@ -88,7 +109,6 @@ li {
 
 }
 
-/*z-index*/
 
 
 

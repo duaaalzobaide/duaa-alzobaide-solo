@@ -27,6 +27,7 @@ window.onload = function() {
             return;
 
         }
+
         lapsList.unshift(currentTimer);
 
 
