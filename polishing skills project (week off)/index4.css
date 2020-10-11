@@ -1,0 +1,30 @@
+.form-container {
+
+    
+	position: absolute;
+	top: 30vh;
+	background-color: white;
+	padding : 30px;
+	border-radius:  20px;
+	box-shadow: 0px 0px 30px  #99ccff;
+
+
+
+}
+
+.row {
+
+	justify-content: center;
+
+}
+
+
+.bl {
+
+	background-image: url("/home/pc/Desktop/solo/duaa-alzobaide-solo/polishing skills project (week off)/beautiful-wallpaper-download-14.jpg") ; 
+	width: 100%;
+	height: 100vh
+
+	
+
+} 
