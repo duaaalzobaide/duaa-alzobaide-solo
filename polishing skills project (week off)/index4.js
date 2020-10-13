@@ -28,7 +28,10 @@ document.getElementById('log').onclick = function(){
 	for(var i = 0;i<users.length;)
 
 	if(document.getElementById('exampleInputPassword') === users[i].pass){
+  //if the password exists & correct then go to the site 
+
 
 
 	}
 }
+
