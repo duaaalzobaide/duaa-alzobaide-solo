@@ -8,10 +8,10 @@ document.getElementById('push').onclick = function(){
 
 ///so i think i have to put each user in an object and push the object to the array
 
-	singleUser.name = document.getElementById('name').innerHTML
-    singleUser.phone = document.getElementById('phone').innerHTML
-    singleUser.pass = document.getElementById('pass1').innerHTML
-    singleUser.confirmation = document.getElementById('pass2').innerHTML
+	singleUser.name = document.getElementById('name').value
+    singleUser.phone = document.getElementById('phone').value
+    singleUser.pass = document.getElementById('pass1').value
+    singleUser.confirmation = document.getElementById('pass2').value
 
 
 	users.push(singleUser)
@@ -25,11 +25,12 @@ document.getElementById('push').onclick = function(){
 //to the intended page .
 document.getElementById('log').onclick = function(){
 
-	for(var i = 0;i<users.length;)
+	for(var i = 0;i<users.length; i++)
 
 	if(document.getElementById('exampleInputPassword') === users[i].pass){
   //if the password exists & correct then go to the site 
-
+     
+     
 
 
 	}
