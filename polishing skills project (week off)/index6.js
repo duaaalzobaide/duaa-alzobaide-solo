@@ -1,5 +1,3 @@
-
-
 console.log('hghg')
 
 window.onload = function() {
